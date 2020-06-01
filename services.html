@@ -1,0 +1,979 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="img/sanofi.svg">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.2.2">
+    
+    
+      
+        <title>Services - DRAFT AllStar® Connect - Interoperability Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.b8fb47b5.min.css">
+      
+        <link rel="stylesheet" href="assets/stylesheets/palette.36d1b78f.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith+One:300,400,400i,700%7CHammersmith+One&display=fallback">
+        <style>body,input{font-family:"Hammersmith One",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Hammersmith One",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="css/style.css">
+    
+      <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+      <link rel="stylesheet" href="css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#generic-access-service" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<div class="logo-wrapper">
+  <a href="index.html">
+    <img src='img/logo.png' width="200">
+  </a>
+</div>
+ 
+
+<!-- Application header -->
+
+	
+  <!-- Top-level navigation -->
+
+	
+<nav class="navbar sticky-top navbar-expand-md navbar-light ">
+
+
+
+    <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="navbar-collapse collapse" id="navbarNavDropdown">
+      <ul class="nav navbar-nav navbar-center">
+       
+ 
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle-split" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            EUROPE
+          </a>
+          <span class="sr-only">Toggle Dropdown</span>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="asia.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ASIA
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="cambodia.html">Cambodia</a>
+            <a class="dropdown-item" href="#">b</a>
+            <a class="dropdown-item" href="#">c</a>
+          </div>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="north-america.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              NORTH AMERICA
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="canada.html">Canada</a>
+              <a class="dropdown-item" href="#">Puerto Rico</a>
+              <a class="dropdown-item" href="#">US</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              AFRICA
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="video.html">VIDEO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+      </ul>
+    </div>
+
+</nav>
+
+
+
+
+    <!-- Link to home 
+    <a
+
+	  href="index.html"
+      title="DRAFT AllStar® Connect - Interoperability Manual"
+      aria-label="DRAFT AllStar® Connect - Interoperability Manual"
+      class="md-header-nav__button md-logo"
+    >
+      
+        <img src="img/sanofi_white.svg" alt="logo" />
+      
+    </a>
+   
+
+    <!-- Header title 
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis md-ellipsis">
+        
+          <span class="md-header-nav__topic">
+            DRAFT AllStar® Connect - Interoperability Manual
+          </span>
+          <span class="md-header-nav__topic">
+            
+              Services
+            
+          </span>
+        
+      </div>
+    </div>
+
+    <!-- Button to open search dialogue -->
+
+
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+        
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <p>The data to be exchanged by the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span> and the <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> has been split into Bluetooth <span data-tooltip="Generic Attribute Profile.">GATT</span> characteristics, grouped within Bluetooth <span data-tooltip="Generic Attribute Profile.">GATT</span> services. 
+These services and their characteristics are described below. </p>
+<p>Sanofi has received a unique company identifier by the Bluetooth SIG: Decimal: 1859 (Hexadecimal: 0x0743)</p>
+<hr />
+<h2 id="generic-access-service">Generic Access Service<a class="headerlink" href="#generic-access-service" title="Permanent link">#</a></h2>
+<p>The Generic Access Service ensures that any <span data-tooltip="Generic Access Profile.">GAP</span> device can establish basic information about any other. The Device Name and Appearance characteristics are mandatory.</p>
+<p>For more details please refer to the Bluetooth Core Specification, sections 12.1, 12.2:</p>
+<details class="tip"><summary>Bluetooth Core Specification 4.2 - GAP Service and Characteristics for GATT Server</summary><p><embed src="img/Core_v4.2.pdf#page=2083" type="application/pdf" width="100%" height="480px"></p>
+</details>
+<table align="center">
+     <tr>
+        <th>UUID</th>
+        <th>Characteristic Name</th>
+        <th>Characteristic Properties</th>
+        <th>Characteristic Permissions</th>
+        <th>Description</th>
+     </tr>
+     <tr>
+        <td>00002A00-0000-1000-8000-00805F9B34FB</td>
+        <td><a href="#device-name-characteristic">Device Name </a></td>
+        <td>Read</td>
+        <td>None</td>
+        <td>The name of the device</td>
+     </tr>
+     <tr>
+        <td>00002A01-0000-1000-8000-00805F9B34FB</td>
+        <td><a href="#appearance-characteristic">Appearance</a></td>
+        <td>Read</td>
+        <td>None</td>
+        <td>The physical appearance of the device </td>
+     </tr>
+     <tr>
+        <td>00002A04-0000-1000-8000-00805F9B34FB</td>
+        <td><a href="#peripheral-preferred-connection-parameters-characteristic">Peripheral Preferred Connection Parameter </a></td>
+        <td>Read</td>
+        <td>None</td>
+        <td>The preferred Bluetooth connection parameters of the CONNECTED DEVICE</td>
+     </tr>
+</table>
+
+<h3 id="device-name-characteristic">Device name characteristic<a class="headerlink" href="#device-name-characteristic" title="Permanent link">#</a></h3>
+<p>This characteristic specifies the name of the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>. It is
+the same name used in the advertising scan response.</p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Field</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 to 19</td>
+<td>Name</td>
+<td>"AllStar " followed by the last four characters of the serial number field in the UDI.</td>
+<td>The name of the CONNECTED DEVICE (a 12 byte PRINTABLE ASCII string)</td>
+</tr>
+</tbody>
+</table>
+<h3 id="appearance-characteristic">Appearance characteristic<a class="headerlink" href="#appearance-characteristic" title="Permanent link">#</a></h3>
+<p>This characteristic describes the physical appearance of the device so
+the appropriate symbol/image can be used by some <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span>s. The
+value is an enumeration, defined <a href="https://www.bluetooth.com/wp-content/uploads/Sitecore-Media-Library/Gatt/Xml/Characteristics/org.bluetooth.characteristic.gap.appearance.xml" target="_blank">here </a>. </p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Field</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 to 1</td>
+<td>Category</td>
+<td>0xD48</td>
+<td>The physical appearance of the device</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>The Appearance characteristic value = 0x0D48 (decimal: 3400), category 53 (insulin
+pump), sub-category 8 (insulin pen).</p>
+</div>
+<h3 id="peripheral-preferred-connection-parameters-characteristic">Peripheral Preferred Connection Parameters characteristic<a class="headerlink" href="#peripheral-preferred-connection-parameters-characteristic" title="Permanent link">#</a></h3>
+<p>This characteristic specifies the connection parameters that the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span> would prefer to use. </p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Field</th>
+<th>Value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 to 1</td>
+<td>Minimum Connection Interval</td>
+<td>80</td>
+<td>The minimum connection interval. Interval is value multiplied by 1.25ms (100ms)</td>
+</tr>
+<tr>
+<td>2 to 3</td>
+<td>Maximum Connection Interval</td>
+<td>800</td>
+<td>The maximum connection interval. Interval is value multiplied by 1.25ms (1000ms)</td>
+</tr>
+<tr>
+<td>4 to 5</td>
+<td>Slave Latency</td>
+<td>0</td>
+<td>The slave latency. Value represents the number of connection events</td>
+</tr>
+<tr>
+<td>6 to 7</td>
+<td>Connection Supervision Timeout Multiplier</td>
+<td>201</td>
+<td>The connection supervision timeout. Timeout is value multiplied by 10ms (2010ms)</td>
+</tr>
+</tbody>
+</table>
+<hr />
+<h2 id="dose-information-service">Dose Information Service<a class="headerlink" href="#dose-information-service" title="Permanent link">#</a></h2>
+<p>The Dose Information Service defines where the information about a <span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span> or an <span data-tooltip="A wrapper structure around the latest record produced by the CONNECTED DEVICE, with additional data, including:
+- FIRST USE TIME
+- RECORD NUMBER
+- Battery voltage
+- Microcontroller temperature
+- CHECK VALUE of the EXTENDED DOSE RECORD">Extended Dose Record</span> is found. This service is used by the APP to compile a dose history. </p>
+<p>All characteristics in the Dose Information Service have encryption permissions, i.e. they cannot be read/written unless the Bluetooth connection is encrypted with the keys generated during pairing. If an attempt is made to read/write the characteristics without encryption, the “Insufficient Encryption” ATT error response will be sent, which should trigger a <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> to initiate pairing.  </p>
+<p>It is the attempt to read a characteristic with encrypted permissions that causes BLE devices to trigger pairing. This is true for iOS and Android devices but is the ONLY way to trigger pairing on an iOS device.  </p>
+<table align="center">
+
+        <th>UUID</th>
+        <th>Characteristic Name</th>
+        <th>Characteristic Properties</th>
+        <th>Characteristic Permissions</th>
+        <th>Description</th>
+     </tr>
+     <tr>
+        <td>8988A001-A9E2-11E7-ABC4-CEC278B6B50A </td>
+        <td><a href="#extended-dose-record-characteristic">Extended Dose Record </a></td>
+        <td>Read</td>
+        <td>Authorization</td>
+        <td>The EXTENDED DOSE RECORD</td>
+     </tr>
+     <tr>
+        <td>8988A002-A9E2-11E7-ABC4-CEC278B6B50A </td>
+        <td><a href="#record-request-characteristic">Record Request </a></td>
+        <td>Write</td>
+        <td>Authorization</td>      
+        <td>A request for a range of DOSE RECORDS</td>
+     </tr>
+     <tr>
+        <td>8988A003-A9E2-11E7-ABC4-CEC278B6B50A </td>
+        <td><a href="#record-response-characteristic">Record Response </a></td>
+        <td>Notify</td>
+        <td>Encryption</td>     
+        <td>The requested DOSE RECORD(s)</td>
+     </tr>   
+</table>
+
+<h3 id="extended-dose-record-characteristic">Extended Dose Record characteristic<a class="headerlink" href="#extended-dose-record-characteristic" title="Permanent link">#</a></h3>
+<p>The Extended Dose Record characteristic enables the <span data-tooltip="MOBILE DEVICE application which may be the USER APP or the DEVELOPMENT APP.">App</span> to retrieve an <span data-tooltip="A wrapper structure around the latest record produced by the CONNECTED DEVICE, with additional data, including:
+- FIRST USE TIME
+- RECORD NUMBER
+- Battery voltage
+- Microcontroller temperature
+- CHECK VALUE of the EXTENDED DOSE RECORD">Extended Dose Record</span>. </p>
+<p>The Extended Dose Record characteristic must be read before requests for more DOSE RECORDS can be accepted. </p>
+<p>The Extended Dose Record characteristic has authorization permissions such that it can only be read during data sync. The Initialization Vector characteristic must also have been read. </p>
+<p>An attempt to read the Extended Dose Record characteristic when not in data sync or before the Initialization Vector characteristic has been read will result in an “Insufficient Authorization” ATT error response being sent. Note the “Insufficient Encryption” response supersedes the “Insufficient Authorization” response.  </p>
+<p>The Extended Dose Record will additionally be encrypted at the application layer. </p>
+<table>
+<thead>
+<tr>
+<th>Bits</th>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 to 31</td>
+<td>FIRST USE TIME</td>
+<td>Date and time at which the CONNECTED DEVICE first stored a record in non-volatile memory, represented as an EPOCH TIME. <br> 4-byte unsigned integer represented in little-endian order.</td>
+</tr>
+<tr>
+<td>32 to 47</td>
+<td>RECORD NUMBER</td>
+<td>Identifying number of the record included in this packet. <br> 2-byte unsigned integer represented in little-endian order.</td>
+</tr>
+<tr>
+<td>48 to 87</td>
+<td>Latest Record</td>
+<td>The DOSE RECORD or ERROR RECORD most recently created by the CONNECTED DEVICE. <br> 5-byte record, see record format section.</td>
+</tr>
+<tr>
+<td>88 to 95</td>
+<td>Battery Voltage</td>
+<td>The CONNECTED DEVICE's battery voltage following dose measurement, in multiples of 15.625mV. <br> 1-byte unsigned integer.</td>
+</tr>
+<tr>
+<td>96 to 103</td>
+<td>Microcontroller Temperature</td>
+<td>The CONNECTED DEVICE's temperature following dose measurement, in degrees Celsius. <br> 1-byte signed integer, in two's complement format.</td>
+</tr>
+<tr>
+<td>104</td>
+<td>Sync Mode</td>
+<td>Indicates whether data sync has been manually triggered  by the user or automatically triggered following a dose measurement.</td>
+</tr>
+<tr>
+<td>105 to 111</td>
+<td>Reserved</td>
+<td>Reserved for future use. All bits set to zero.</td>
+</tr>
+<tr>
+<td>112 to 119</td>
+<td>CHECK VALUE</td>
+<td>CRC calculation for EXTENDED DOSE RECORD. <br> See CHECK VALUE calculation for EXTENDED DOSE RECORD requirement. <br> 1-byte unsigned integer.</td>
+</tr>
+<tr>
+<td>120 to 127</td>
+<td>Padding</td>
+<td>All bits set to zero.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">First Use Time</p>
+<p>If at least one record is stored, then the <span data-tooltip="Date and time at which the CONNECTED DEVICE first stored a record in non-volatile memory.">First Use Time</span> will be set to the <span data-tooltip="UTC converted to be an offset in seconds from 1970-01-01T00:00:00Z.">Epoch Time</span> at which the first record was stored. </p>
+<p>If there are no records stored on the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>, then the <span data-tooltip="Date and time at which the CONNECTED DEVICE first stored a record in non-volatile memory.">First Use Time</span> will be set to 0. </p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Record Number</p>
+<p>If at least one record is stored on the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>, the <span data-tooltip="A unique identifier for a DOSE RECORD or ERROR RECORD.">Record Number</span> will be set to the identifying number of the most recently stored record. The <span data-tooltip="A unique identifier for a DOSE RECORD or ERROR RECORD.">Record Number</span> will be in the inclusive range 0 to <span data-tooltip="Exact number given by UDI field (93). 3228 records for Cynthia devices.">RECORD_STORAGE_SIZE</span> - 1. </p>
+<p>If there are no records stored on the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>, the <span data-tooltip="A unique identifier for a DOSE RECORD or ERROR RECORD.">Record Number</span> will be set to 0. </p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Latest Record</p>
+<p>The format of <span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span>s and <span data-tooltip="A record containing information about a DEVICE ERROR. The same record structure is used as for a DOSE RECORD.">Error Record</span>s is specified <a href="records.html#record-format">(here)</a>. </p>
+<p>If there is at least one record stored on the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>, this field will contain the most recently stored record. </p>
+<p>If there are no records stored on the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>, all bytes of this field will be set to 0. </p>
+<p>If <span data-tooltip="Exact number given by UDI field (93). 3228 records for Cynthia devices.">RECORD_STORAGE_SIZE</span> records have been stored, this field will always contain the same record, being the last stored record. </p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Battery Voltage</p>
+<p>The battery voltage is reported as an unsigned multiple of 15.625mV. </p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Temperature</p>
+<p>The temperature is reported as a signed multiple of 1°C. </p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Sync Mode</p>
+<p>If the data sync has been initiated manually, the Sync Mode will be set to 0. </p>
+<p>If the data sync has been initiated as a result of successful pairing, the Sync Mode will be set to 0. </p>
+<p>If the data sync has been initiated automatically, the Sync Mode will be set to 1. </p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Check Value</p>
+<p>The <span data-tooltip="The output of an 8 bit cyclic redundancy check using a polynomial optimised for the DOSE RECORD size.">Check Value</span> is the result of the CRC calculation on the preceding 14 bytes of the <span data-tooltip="A wrapper structure around the latest record produced by the CONNECTED DEVICE, with additional data, including:
+- FIRST USE TIME
+- RECORD NUMBER
+- Battery voltage
+- Microcontroller temperature
+- CHECK VALUE of the EXTENDED DOSE RECORD">Extended Dose Record</span>. See <a href="records.html#check-value-calculations">(here)</a>. </p>
+</div>
+<h3 id="record-request-characteristic">Record Request characteristic<a class="headerlink" href="#record-request-characteristic" title="Permanent link">#</a></h3>
+<p>The Record Request characteristic enables the APP to request a range of records from the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>. </p>
+<p>The Record Request characteristic has authorization permissions such that it cannot be written unless the Extended Dose Record characteristic has first been read. If an attempt is made to write to the Record Request characteristic before the Extended Dose Record characteristic has been read the “Insufficient Authorization” ATT error response will be sent. </p>
+<p>Notifications must be enabled using the Client Characteristic Configuration Descriptor in order to receive the requested records. If a write request is received on the Record Request characteristic and notifications are not enabled, the “Client characteristic configuration descriptor improperly configured” ATT error response will be sent. </p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 to 1</td>
+<td>Start</td>
+<td>The RECORD NUMBER corresponding to the start of the required range (inclusive). <br> 2-byte unsigned integer in little-endian format.</td>
+</tr>
+<tr>
+<td>2 to 3</td>
+<td>End</td>
+<td>The RECORD NUMBER corresponding to the end of the required range (exclusive). <br> 2-byte unsigned integer in little-endian format.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Valid Range</p>
+<p>The <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span> will respond to the request with the “Out of
+Range” ATT error response if:</p>
+<ul>
+<li>The end value is less or equal to the start value, OR</li>
+<li>The start or end value is greater than <span data-tooltip="Exact number given by UDI field (93). 3228 records for Cynthia devices.">RECORD_STORAGE_SIZE</span>, OR</li>
+<li>Any of the requested records do not exist.</li>
+</ul>
+<p>Note that start and end values are interpreted as unsigned integers.</p>
+</div>
+<h3 id="record-response-characteristic">Record Response characteristic<a class="headerlink" href="#record-response-characteristic" title="Permanent link">#</a></h3>
+<p>The Record Response characteristic enables the APP to retrieve a requested range of records. The APP subscribes to its notifications using the Client Characteristic Configuration Descriptor. The Record Request characteristic is used to request that this characteristic be updated. </p>
+<p>The Client Characteristic Configuration Descriptor has authorization permissions such that it cannot be read/written unless the Extended Dose Record characteristic has first been read. If an attempt is made to read/write to the Client Characteristic Configuration Descriptor before the Extended Dose Record characteristic has been read the “Insufficient Authorization” ATT error response will be sent. </p>
+<p>Only the first record in each notification needs to be accompanied by a <span data-tooltip="A unique identifier for a DOSE RECORD or ERROR RECORD.">Record Number</span> since records are packed chronologically and only contiguous ranges are sent in any one notification.  </p>
+<p>The Record Response will additionally be encrypted at the application layer, see <a href="security.html">(here)</a>.</p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Record Count</td>
+<td>The number of records in the packet.</td>
+</tr>
+<tr>
+<td>1 to 2</td>
+<td>RECORD NUMBER</td>
+<td>The RECORD NUMBER of the first record in the packet</td>
+</tr>
+<tr>
+<td>3 to 7</td>
+<td>Record</td>
+<td>The first of the requested records. See Section 11.1 for the record structure.</td>
+</tr>
+<tr>
+<td>8...</td>
+<td>Record(s) (if present)</td>
+<td>Any further requested records.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Number of records</p>
+<p>In order to optimise data transfer efficiency, the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span> will pack as many records into one Record Response notification as possible, limited by the smallest ATT MTU size supported the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>, the <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> and the APP. </p>
+<p>Since the Record Response may need to be encrypted using 128-bit <span data-tooltip="Advanced Encryption Standard, an encryption algorithm.">AES</span>, the total length will be a multiple of 16 bytes with any unused bytes set to zero. </p>
+<p>The <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>’s ATT MTU size will be set to 23 bytes by default which corresponds to 2 records per notification. The <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> should request a larger ATT MTU size in order to optimise data transfer efficiency. The maximum ATT MTU size supported by the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span> (MAX_ATT_MTU_SIZE) is 115 bytes which corresponds to 21 records per notification.  </p>
+<p>The maximum number of records per notification is equal to: 
+$$
+Floor( (Floor( (ATT MTU size - 3) / 16) * 16 - 3) / 5) 
+$$</p>
+</div>
+<hr />
+<h2 id="device-identification-service">Device Identification Service<a class="headerlink" href="#device-identification-service" title="Permanent link">#</a></h2>
+<p>The Device Identification Service is responsible for providing information about the identity of the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span> through its <span data-tooltip="Unique device identifier, a globally unique number required by regulation to be assigned to every individual medical device.">UDI</span>. </p>
+<table align="center">
+     <tr>
+        <th>UUID</th>
+        <th>Characteristic Name</th>
+        <th>Characteristic Properties</th>
+        <th>Characteristic Permissions</th>
+        <th>Description</th>
+     </tr>
+     <tr>
+        <td>8988B001-A9E2-11E7-ABC4-CEC278B6B50A </td>
+        <td><a href="#unique-device-identifier-characteristic">Unique Device Identifier </a></td>
+        <td>Read</td>
+        <td>None</td>       
+        <td>The UDI of the CONNECTED DEVICE</td>
+     </tr>
+</table>
+
+<h3 id="unique-device-identifier-characteristic">Unique Device Identifier characteristic<a class="headerlink" href="#unique-device-identifier-characteristic" title="Permanent link">#</a></h3>
+<p>This characteristic enables the <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> to retrieve the <span data-tooltip="Unique device identifier, a globally unique number required by regulation to be assigned to every individual medical device.">UDI</span>, a variable length <span data-tooltip="Characters in the 'printable' range of the ASCII character set, with a value between 0x20 and 0x7E hexadecimal inclusive.">Printable ASCII</span> string limited to 128 characters. </p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 to 3</td>
+<td>Serial Number Identifier</td>
+<td>"(21)" - Precedes the serial number</td>
+</tr>
+<tr>
+<td>4 to 11</td>
+<td>Serial Number</td>
+<td>The serial number for the device (8 ASCII decimal digits)</td>
+</tr>
+<tr>
+<td>12 to 15</td>
+<td>Production Date Identifier</td>
+<td>"(11)" - Precedes the production date</td>
+</tr>
+<tr>
+<td>16 to 21</td>
+<td>Production Date</td>
+<td>The production date for the device (6 ASCII decimal digits in the format YYMMDD)</td>
+</tr>
+<tr>
+<td>22 to 25</td>
+<td>UDI Data Identifier (if present)</td>
+<td>The identifier for the next UDI data</td>
+</tr>
+<tr>
+<td>26 to (26 + data length)</td>
+<td>UDI Data (if present)</td>
+<td>The next UDI data</td>
+</tr>
+<tr>
+<td>...</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>The <span data-tooltip="Unique device identifier, a globally unique number required by regulation to be assigned to every individual medical device.">UDI</span> contains a variable number of data items separated by the appropriate identifier e.g. "(21)". <br></p>
+<p>The serial number and manufacturing date are the first two items in the <span data-tooltip="Unique device identifier, a globally unique number required by regulation to be assigned to every individual medical device.">UDI</span>, in that order, with any number of other items following in any order, for example: 
+(21)xxxxxxxx(11)xxxxxx(xx)xxxx... up to 128 characters. Any unused characters will be populated with spaces (0x20).</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>The intention is that the <span data-tooltip="Unique device identifier, a globally unique number required by regulation to be assigned to every individual medical device.">UDI</span> shall be formatted according to a GS1 128
+format “(AI 1-n)X” where “(AI 1-n)” represents a sequence of application
+identifiers and “X” represents the respective piece of information.<br></p>
+<p>The <span data-tooltip="Unique device identifier, a globally unique number required by regulation to be assigned to every individual medical device.">UDI</span> shall contain the following application identifiers:</p>
+<ul>
+<li>(01): Global Trade Item Number, with X = "04030685XXXXXC"
+    (GTIN-14)</li>
+<li>(10): Batch or Lot number, with X = "L123" (four characters)</li>
+<li>(11): Production date, with X = "YYMMDD"</li>
+<li>(21): Serial number, with X = "12345678" (eight digits)</li>
+<li>(91): Company internal information used for the firmware version,
+    with X = "AAaaBBBB" (A: Major, a: Minor, B: Built code)</li>
+<li>(92): Product Variant, with X = "blue" or "silver", representing the
+    device colour</li>
+<li>(93): Dose Record Storage Capacity, N = maximum number of dose
+    records that the device can store</li>
+</ul>
+<p>The ordering of application identifiers may differ between Digital <span data-tooltip="Unique device identifier, a globally unique number required by regulation to be assigned to every individual medical device.">UDI</span> and the Human readable portion. </p>
+<p>Depending on launch market specific requirements other application identifiers are thinkable, such as:</p>
+<ul>
+<li>(17): Expiration date, with X = “YYMMDD”</li>
+</ul>
+<p>GTIN 14 format: “I 40 30685 XXXXX C”: </p>
+<ul>
+<li>“I” being an indicator digit of value “0”</li>
+<li>“40 30 30685” being the GS1 Company Prefix</li>
+<li>“XXXXX” being the item reference using five digits</li>
+<li>“C” being a check digit</li>
+</ul>
+<p><strong>UDI example: (21)11900727(11)191024(17)241024(01)04030685900094(91)00000002(93)3228(10)LCYN(92)silver</strong></p>
+</div>
+<hr />
+<h2 id="device-time-service">Device Time Service<a class="headerlink" href="#device-time-service" title="Permanent link">#</a></h2>
+<p>The Device Time Service is responsible for reporting the time maintained by the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>. </p>
+<table align="center">
+     <tr>
+        <th>UUID</th>
+        <th>Characteristic Name</th>
+        <th>Characteristic Properties</th>
+        <th>Characteristic Permissions</th>     
+        <th>Description</th>
+     </tr>
+     <tr>
+        <td>8988C001-A9E2-11E7-ABC4-CEC278B6B50A </td>
+        <td><a href="#time-request-characteristic">Time Request </a></td>
+        <td>Write</td>
+        <td>None</td>
+        <td>A request to provide the time</td>
+     </tr>
+     <tr>
+        <td>8988C002-A9E2-11E7-ABC4-CEC278B6B50A </td>
+        <td><a href="#device-time-characteristic">Device Time </a></td>
+        <td>Notify</td>
+        <td>None</td>
+        <td>The time maintained by the CONNECTED DEVICE</td>
+     </tr>
+</table>
+
+<h3 id="time-request-characteristic">Time Request characteristic<a class="headerlink" href="#time-request-characteristic" title="Permanent link">#</a></h3>
+<p>This characteristic enables the <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> to request the time maintained by the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>. The value will be supplied in the Device Time characteristic once the time has been acquired. </p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0</td>
+<td>Time Request</td>
+<td>Set to anything other than 0 to request the time</td>
+</tr>
+</tbody>
+</table>
+<h3 id="device-time-characteristic">Device Time characteristic<a class="headerlink" href="#device-time-characteristic" title="Permanent link">#</a></h3>
+<p>This characteristic provides the time maintained by the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>. In order to receive this data the <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> must have subscribed to notifications via the Client Characteristic Configuration Descriptor and have written to the Time Request characteristic.</p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 to 3</td>
+<td>Device Time</td>
+<td>The current EPOCH TIME maintained by the CONNECTED DEVICE.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Note if the time cannot be acquired from the real time clock, for
+example due to a communications failure, all bytes of the Device Time
+will be set to 0xFF.</p>
+</div>
+<hr />
+<h2 id="key-exchange-service">Key Exchange Service<a class="headerlink" href="#key-exchange-service" title="Permanent link">#</a></h2>
+<p>The Key Exchange Service defines where the public keys for the <span data-tooltip="Elliptic Curve Diffie-Hellman, a secure method of generating a shared secret key for data encryption.">ECDH</span> can be found in addition to the initialization vector required to decrypt the data using <span data-tooltip="Advanced Encryption Standard, an encryption algorithm.">AES</span> Cipher Block Chaining mode. </p>
+<p>The parameters for the <span data-tooltip="Elliptic Curve Diffie-Hellman, a secure method of generating a shared secret key for data encryption.">ECDH</span> are those that define Curve P-256 in (see below). Note this is the same elliptic curve used for key exchange during Bluetooth Secure Connections Pairing. </p>
+<details class="tip"><summary>Digital Signature Standard - (Curve P-256)</summary><p><embed src="img/nist_crc.pdf#page=100" type="application/pdf" width="100%" height="480px"></p>
+</details>
+<p>The encryption key can be derived by performing a SHA-256 operation on the x-coordinate of the shared secret and then taking the least significant 128 bits of the result. </p>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>We use the BouncyCastle library with the p-256 NistNamedCurve.<br>
+The hash is performed separately to the ECDH algorithm using the System.Security.Cryptography library.</p>
+</div>
+<p>All characteristics within this service have encryption permissions such that they cannot be read/written before pairing has succeeded. If an attempt is made to read/write the characteristics without encryption, the “Insufficient Encryption” ATT error response will be sent, which should trigger a <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> to initiate pairing.  </p>
+<table align="center">
+     <tr>
+        <th>UUID</th>
+        <th>Characteristic Name</th>
+        <th>Characteristic Properties</th>
+        <th>Characteristic Permissions</th>         
+        <th>Description</th>
+     </tr>
+     <tr>
+        <td>8988D001-A9E2-11E7-ABC4-CEC278B6B50A </td>
+        <td><a href="#connected-device-public-key-characteristic">Connected Device Public Key </a></td>
+        <td>Read</td>
+        <td>Authorization, Encryption </td>
+        <td>The CONNECTED DEVICE's Elliptic Curve public key. </td>
+     </tr>
+     <tr>
+        <td>8988D002-A9E2-11E7-ABC4-CEC278B6B50A </td>
+        <td><a href="#mobile-device-public-key-characteristic">Mobile Device Public Key </a></td>
+        <td>Write</td>
+        <td>Authorization, Encryption </td>
+        <td>The MOBILE DEVICE's Elliptic Curve public key</td>
+     </tr>
+     <tr>
+        <td>8988D003-A9E2-11E7-ABC4-CEC278B6B50A </td>
+        <td><a href="#initialization-vector-characteristic">Initialization Vector </a></td>
+        <td>Read</td>
+        <td>Authorization, Encryption </td>
+        <td>The initialization vector for the current connection</td>
+     </tr>   
+</table>
+
+<h3 id="connected-device-public-key-characteristic">Connected Device Public Key characteristic<a class="headerlink" href="#connected-device-public-key-characteristic" title="Permanent link">#</a></h3>
+<p>The Connected Device Public Key characteristic enables the <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> to obtain the public key from the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span> to generate a shared secret via an <span data-tooltip="Elliptic Curve Diffie-Hellman, a secure method of generating a shared secret key for data encryption.">ECDH</span> key exchange. </p>
+<p>The Connected Device Public Key characteristic has authorization permissions such that it can only be read during pairing. An attempt to read the Connected Device Public Key characteristic during data sync will result in an "Insufficient Authorization" ATT error response. </p>
+<p>The <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>'s public key is a point on Curve P-256 and as such consists of an x and a y coordinate. </p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 to 31</td>
+<td>Public Key X</td>
+<td>The x-coordinate of the CONNECTED DEVICE's public key (LSB first).</td>
+</tr>
+<tr>
+<td>32 to 63</td>
+<td>Public Key Y</td>
+<td>The y-coordinate of the CONNECTED DEVICE's public key (LSB first).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="mobile-device-public-key-characteristic">Mobile Device Public Key characteristic<a class="headerlink" href="#mobile-device-public-key-characteristic" title="Permanent link">#</a></h3>
+<p>The Mobile Device Public Key characteristic enables the <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> to send its public key to the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span> to generate a shared secret via an <span data-tooltip="Elliptic Curve Diffie-Hellman, a secure method of generating a shared secret key for data encryption.">ECDH</span> key exchange. </p>
+<p>The Mobile Device Public Key characteristic has authorization permissions such that it can only be written during pairing. An attempt to write to the Mobile Device Public Key characteristic during data sync will result in an "Insufficient Authorization" ATT error response. </p>
+<p>The <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span>'s public key must be a point on Curve P-256, determined using the curve parameters and a randomly generated 256-bit private key. As such, the key must consist of an x and a y coordinate. </p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 to 31</td>
+<td>Public Key X</td>
+<td>The x-coordinate of the MOBILE DEVICE's public key (LSB first).</td>
+</tr>
+<tr>
+<td>32 to 63</td>
+<td>Public Key Y</td>
+<td>The y-coordinate of the MOBILE DEVICE's public key (LSB first).</td>
+</tr>
+</tbody>
+</table>
+<h3 id="initialization-vector-characteristic">Initialization Vector characteristic<a class="headerlink" href="#initialization-vector-characteristic" title="Permanent link">#</a></h3>
+<p>The Initialization Vector characteristic enables the <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> to obtain the initialization vector used in the encryption of the data using <span data-tooltip="Advanced Encryption Standard, an encryption algorithm.">AES</span> Cipher Block Chaining mode. </p>
+<p>Note the initialization vector will be randomly generated for each connection but it will not change during a particular connection. As a result, the <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> is expected to request this once at the start of a connection during data sync. The <span data-tooltip="A smart phone or tablet hosting the USER APP.">Mobile Device</span> is expected to retain the last block of the ciphertext in order to decrypt the next block so once the first block has been decrypted the initialization vector is no longer needed. </p>
+<p>The Initialization Vector characteristic must be read before requests to read the Extended Dose Record characteristic will be accepted. </p>
+<p>The Initialization Vector characteristic has authorization permissions such that it can only be read during data sync. An attempt to read the Initialization Vector characteristic during pairing will result in as "Insufficient Authorization" ATT error response. </p>
+<table>
+<thead>
+<tr>
+<th>Byte(s)</th>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 to 15</td>
+<td>Initialization Vector</td>
+<td>The randomly generated data required to decrypt the first block in the chain (LSB first).</td>
+</tr>
+</tbody>
+</table>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="sequences.html" title="Sequences" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Sequences
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="technical_overview.html" title="Technical overview" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Technical overview
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/vendor.de50e36d.min.js"></script>
+      <script src="assets/javascripts/bundle.ff925e8b.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+
+
+      <script>
+        app = initialize({
+          base: ".",
+          features: [],
+          search: Object.assign({
+            worker: "assets/javascripts/worker/search.27c6a5e6.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      
+        <script src="javascripts/jquery.fancybox.min.js"></script>
+      
+        <script src="javascripts/bootstrap.min.js"></script>
+      
+        <script src="javascripts/navbar_hover.js"></script>
+      
+    
+  </body>
+</html>

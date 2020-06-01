@@ -1,0 +1,501 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="img/sanofi.svg">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.2.2">
+    
+    
+      
+        <title>Technical overview - DRAFT AllStar® Connect - Interoperability Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.b8fb47b5.min.css">
+      
+        <link rel="stylesheet" href="assets/stylesheets/palette.36d1b78f.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith+One:300,400,400i,700%7CHammersmith+One&display=fallback">
+        <style>body,input{font-family:"Hammersmith One",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Hammersmith One",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="css/style.css">
+    
+      <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+      <link rel="stylesheet" href="css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#integrating-with-allstar-connect" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<div class="logo-wrapper">
+  <a href="index.html">
+    <img src='img/logo.png' width="200">
+  </a>
+</div>
+ 
+
+<!-- Application header -->
+
+	
+  <!-- Top-level navigation -->
+
+	
+<nav class="navbar sticky-top navbar-expand-md navbar-light ">
+
+
+
+    <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="navbar-collapse collapse" id="navbarNavDropdown">
+      <ul class="nav navbar-nav navbar-center">
+       
+ 
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle-split" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            EUROPE
+          </a>
+          <span class="sr-only">Toggle Dropdown</span>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="asia.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ASIA
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="cambodia.html">Cambodia</a>
+            <a class="dropdown-item" href="#">b</a>
+            <a class="dropdown-item" href="#">c</a>
+          </div>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="north-america.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              NORTH AMERICA
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="canada.html">Canada</a>
+              <a class="dropdown-item" href="#">Puerto Rico</a>
+              <a class="dropdown-item" href="#">US</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              AFRICA
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="video.html">VIDEO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+      </ul>
+    </div>
+
+</nav>
+
+
+
+
+    <!-- Link to home 
+    <a
+
+	  href="index.html"
+      title="DRAFT AllStar® Connect - Interoperability Manual"
+      aria-label="DRAFT AllStar® Connect - Interoperability Manual"
+      class="md-header-nav__button md-logo"
+    >
+      
+        <img src="img/sanofi_white.svg" alt="logo" />
+      
+    </a>
+   
+
+    <!-- Header title 
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis md-ellipsis">
+        
+          <span class="md-header-nav__topic">
+            DRAFT AllStar® Connect - Interoperability Manual
+          </span>
+          <span class="md-header-nav__topic">
+            
+              Technical overview
+            
+          </span>
+        
+      </div>
+    </div>
+
+    <!-- Button to open search dialogue -->
+
+
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+        
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h2 id="integrating-with-allstar-connect">Integrating with AllStar® Connect<a class="headerlink" href="#integrating-with-allstar-connect" title="Permanent link">#</a></h2>
+<p>From a technical, app developer point of view having an SDK often makes the integration work easier and faster.
+From a device manufacturer point of view though it is very cumbersome to maintain and LCM an SDK given the medical device regulatory requirements. 
+This is due to the complexity of managing deployment, release, and updates across many smart device systems across many 3<sup>rd</sup> party vendors.
+(Example: New phones and mobile OS versions would require additional Verification and coordination activities between legal entities even though the device itself including its Firmware has not changed.)</p>
+<p>The model implemented incurs more up front effort, but enables more efficient and less complex Life Cycle Management and Post Market Surveillance activities.</p>
+<p>It was a conscious decision to NOT provide an SDK together with the device.
+We therefore focus on a well described instructions manual together with sample code (in this document) and a Hardware tool in form of a pen device simulator (see <a href="tools.html#allstar-connect-device-simulator">here</a>) to support 3<sup>rd</sup> party app developers.</p>
+<p>Overview of assets intended to be supplied:</p>
+<p><img alt="" class="center" src="img/assets.svg" /></p>
+<hr />
+<h2 id="deviceos-compatibility-list">Device/OS compatibility list<a class="headerlink" href="#deviceos-compatibility-list" title="Permanent link">#</a></h2>
+<p>The CONNECTED DEVICE supports data communication using Bluetooth Low Energy, based upon specification version 4.2 (see <a href="references.html#bluetooth-core-specification-version-42">here</a>). </p>
+<p>For iOS integration, the minimum OS version this could support is iOS 8. For ease of development and maintenance, we recommend no less than iOS 11 as the supported minimum (2 less than current major version as of Jan 2020).
+(The iPhone 6 or newer support Bluetooth 4.2.)</p>
+<p>For Android integration, is required that the device supports Bluetooth 4.2. For ease of development and maintenance, we recommend no less than Android 8 as the supported minimum (2 less than current major version as of Jan 2020).</p>
+<hr />
+<h2 id="use-related-risks">Use-Related Risks<a class="headerlink" href="#use-related-risks" title="Permanent link">#</a></h2>
+<p>The listed risks are those that are not fully mitigated by the device
+alone. These system risks must be further mitigated as part of the app
+design development process.</p>
+<p>The risk controls below are inputs to the risk and development process of the app. They must be contextualized and incorporated into the app design (which is unknown and will vary by vendors). 
+This means the app risks and controls traced to the below risk controls will be based on the actual app design.</p>
+<details class="warning" open="open"><summary>Flag Handling</summary><p><img :height="80%" alt="" class="center" src="img/1_flag_handling.svg" width="80%" /></p>
+<p>The pen provides information on the speed of an injection. In theory, it flags events that are likely airshots, that is, no insulin was expelled during the injection. This can result from lack of priming of the piston rod or users who forget to insert a cartridge altogether. This information needs to be communicated adequately in order to prevent users from overly relying on this flag. The flag does not work for units smaller than <span data-tooltip="6 Units">FAST_DOSE_UNITS</span>. So airshots smaller than <span data-tooltip="6 Units">FAST_DOSE_UNITS</span> remain undetected by the system. The user needs to be aware of this.</p>
+</details>
+<details class="warning" open="open"><summary>Pen identification</summary><p><img :height="80%" alt="" class="center" src="img/2_pen_identification.svg" width="80%" /></p>
+</details>
+<details class="warning" open="open"><summary>Double dosing</summary><p><img :height="80%" alt="" class="center" src="img/3_double_dosing.svg" width="80%" /></p>
+<p>The app needs to ensure that users understand when they have last synced the pen with the app. If users do not see their last dosing event in the history, this can either mean that they have not dosed or, importantly, that the app does not show the latest data.                                                                                                                                                                                                                                                                                                                                                                                                                                     </p>
+</details>
+<details class="warning" open="open"><summary>Mixup</summary><p><img :height="80%" alt="" class="center" src="img/4_mixup.svg" width="80%" />   </p>
+</details>
+<details class="warning" open="open"><summary>End of life</summary><p><img :height="80%" alt="" class="center" src="img/5_end_of_life.svg" width="80%" /></p>
+</details>
+<details class="warning" open="open"><summary>Pen time</summary><p><img :height="50%" alt="" class="center" src="img/6_pen_time.svg" width="50%" /></p>
+</details>
+<div class="admonition warning">
+<p class="admonition-title">Patient Safety Risks</p>
+<div class="tabbed-set" data-tabs="1:6"><input checked="checked" id="__tabbed_1_1" name="__tabbed_1" type="radio" /><label for="__tabbed_1_1">Flag Handling</label><div class="tabbed-content">
+<p><img :height="80%" alt="" class="center" src="img/1_flag_handling.svg" width="80%" /></p>
+<p>The pen provides information on the speed of an injection. In theory, it flags events that are likely airshots, that is, no insulin was expelled during the injection. This can result from lack of priming of the piston rod or users who forget to insert a cartridge altogether. This information needs to be communicated adequately in order to prevent users from overly relying on this flag. The flag does not work for units smaller than <span data-tooltip="6 Units">FAST_DOSE_UNITS</span>. So airshots smaller than <span data-tooltip="6 Units">FAST_DOSE_UNITS</span> remain undetected by the system. The user needs to be aware of this.</p>
+</div>
+<input id="__tabbed_1_2" name="__tabbed_1" type="radio" /><label for="__tabbed_1_2">Pen identification</label><div class="tabbed-content">
+<p><img :height="80%" alt="" class="center" src="img/2_pen_identification.svg" width="80%" /></p>
+</div>
+<input id="__tabbed_1_3" name="__tabbed_1" type="radio" /><label for="__tabbed_1_3">Double dosing</label><div class="tabbed-content">
+<p><img :height="80%" alt="" class="center" src="img/3_double_dosing.svg" width="80%" /></p>
+<p>The app needs to ensure that users understand when they have last synced the pen with the app. If users do not see their last dosing event in the history, this can either mean that they have not dosed or, importantly, that the app does not show the latest data.                                                                                                                                                                                                                                                                                                                                                                                                                                     </p>
+</div>
+<input id="__tabbed_1_4" name="__tabbed_1" type="radio" /><label for="__tabbed_1_4">Mixup</label><div class="tabbed-content">
+<p><img :height="80%" alt="" class="center" src="img/4_mixup.svg" width="80%" /></p>
+</div>
+<input id="__tabbed_1_5" name="__tabbed_1" type="radio" /><label for="__tabbed_1_5">End of life</label><div class="tabbed-content">
+<p><img :height="80%" alt="" class="center" src="img/5_end_of_life.svg" width="80%" /></p>
+</div>
+<input id="__tabbed_1_6" name="__tabbed_1" type="radio" /><label for="__tabbed_1_6">Pen time</label><div class="tabbed-content">
+<p><img :height="50%" alt="" class="center" src="img/6_pen_time.svg" width="50%" />        </p>
+</div>
+</div>
+</div>
+<hr />
+<h2 id="end-of-life">End of Life<a class="headerlink" href="#end-of-life" title="Permanent link">#</a></h2>
+<p>The AllStar® Connect Device has been designed to be used for 1-3 years, but at least 1 year after first use. The useful life of the AllStar® Connect depends on the usage of the device and ambient temperature.</p>
+<p>The Device shall NOT be used any longer once the battery is empty or the storage is full even though it is mechanically working for a maximum of 3 years.</p>
+<p>It is desired that an estimated remaining use time (derived from the transmitted values) is provided to the user via the App.</p>
+<p>As the estimation of the remaining in use lifetime of the pen device based on a battery capacity prediction is currently lacking sufficient data, alternative approaches to send out warnings via an app should be considered:</p>
+<h3 id="battery-status">Battery status<a class="headerlink" href="#battery-status" title="Permanent link">#</a></h3>
+<p>As the device gets used over time the battery voltage will decrease. Once this value has dropped below <span data-tooltip="2.5 V	+/- 100 mV">LOW_VOLTAGE</span> the <span data-tooltip="A field in the DOSE RECORD indicating that the battery voltage has been measured to be below LOW_VOLTAGE.">Low Voltage Flag</span> will be set and should be leveraged to indicate a warning that the pen device has to be replaced in near future.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><span data-tooltip="A field in the DOSE RECORD indicating that the battery voltage has been measured to be below LOW_VOLTAGE.">Low Voltage Flag</span>: provided via the <span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span> (see <a href="records.html#record-format">here</a>)</li>
+<li>With ongoing use lower thresholds of <span data-tooltip="2.3 V	+/- 100 mV">VERY_LOW_VOLTAGE</span> and <span data-tooltip="1.8 V	+/- 100 mV">BROWN_OUT_VOLTAGE</span> (see <a href="parameters.html#voltage-and-current">here</a>) will raise error codes 96 or 104 (see <a href="records.html#device-errors">here</a>)</li>
+<li>Battery Voltage value: provided via the <span data-tooltip="A wrapper structure around the latest record produced by the CONNECTED DEVICE, with additional data, including:
+- FIRST USE TIME
+- RECORD NUMBER
+- Battery voltage
+- Microcontroller temperature
+- CHECK VALUE of the EXTENDED DOSE RECORD">Extended Dose Record</span> (see <a href="services.html#extended-dose-record-characteristic">here</a>)</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>AllStar® Connect is powered by a 3 V CR1225 Lithium Coin Cell which is not rechargeable or replaceable. </p>
+<p>A measurement of a very low battery voltage may indicate the coin cell is
+close to end of life but may also be due to a low temperature (from, say,
+storing in a refrigerator) depressing the voltage, which may recover when the
+temperature of the device increases.</p>
+</div>
+<h3 id="dose-record-capacity">Dose record capacity<a class="headerlink" href="#dose-record-capacity" title="Permanent link">#</a></h3>
+<p>The Dose Record Capacity is limited by the <span data-tooltip="Exact number given by UDI field (93). 3228 records for Cynthia devices.">RECORD_STORAGE_SIZE</span>. The remaining free memory can be calculated with following inputs:</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><span data-tooltip="Exact number given by UDI field (93). 3228 records for Cynthia devices.">RECORD_STORAGE_SIZE</span></li>
+<li><span data-tooltip="A unique identifier for a DOSE RECORD or ERROR RECORD.">Record Number</span> of the latest dose record provided via the <span data-tooltip="A wrapper structure around the latest record produced by the CONNECTED DEVICE, with additional data, including:
+- FIRST USE TIME
+- RECORD NUMBER
+- Battery voltage
+- Microcontroller temperature
+- CHECK VALUE of the EXTENDED DOSE RECORD">Extended Dose Record</span> (see <a href="services.html#extended-dose-record-characteristic">here</a>)</li>
+</ul>
+<p>Based on the amount of dose records collected in the last month, a prediction can be made how long the remaining memory will last. This prediction should be provided as a time frame to the patient via the App.</p>
+<ul>
+<li>Free Memory / SUM(<span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span>s (last 4 weeks))</li>
+</ul>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>AllStar® Connect is able to store up to <span data-tooltip="Exact number given by UDI field (93). 3228 records for Cynthia devices.">RECORD_STORAGE_SIZE</span> dose records. Once the memory is full, the device is NOT able to generate new records.
+While the memory is full, AllStar® Connect transmits the final record over and over again, or provides older records if requested.
+At this point also the Auto-Sync is deactivated.</p>
+</div>
+<h3 id="time-restrictions">Time restrictions<a class="headerlink" href="#time-restrictions" title="Permanent link">#</a></h3>
+<p>The maximum useful life of the pen device is estimated to be 3 years for all mechanical functions. 
+Based on the information retrieved in the <span data-tooltip="A wrapper structure around the latest record produced by the CONNECTED DEVICE, with additional data, including:
+- FIRST USE TIME
+- RECORD NUMBER
+- Battery voltage
+- Microcontroller temperature
+- CHECK VALUE of the EXTENDED DOSE RECORD">Extended Dose Record</span> concerning the <span data-tooltip="Date and time at which the CONNECTED DEVICE first stored a record in non-volatile memory.">First Use Time</span> and the time when the last dose was applied (<span data-tooltip="The time in minutes since FIRST USE TIME.">Dose Time</span>), a calculation can be performed to determine if the remaining useful time is less than 3 months.
+Alternatively, the time provided by the mobile device to the App can be used. In this case, the App should indicate a warning and display the remaining days.</p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><span data-tooltip="Date and time at which the CONNECTED DEVICE first stored a record in non-volatile memory.">First Use Time</span>: provided via the <span data-tooltip="A wrapper structure around the latest record produced by the CONNECTED DEVICE, with additional data, including:
+- FIRST USE TIME
+- RECORD NUMBER
+- Battery voltage
+- Microcontroller temperature
+- CHECK VALUE of the EXTENDED DOSE RECORD">Extended Dose Record</span> (see <a href="services.html#extended-dose-record-characteristic">here</a>)</li>
+<li><span data-tooltip="The time in minutes since FIRST USE TIME.">Dose Time</span>: provided via the <span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span> (see <a href="records.html#record-format">here</a>)</li>
+</ul>
+<p>Another warning should be raised if the time between the Production date and <span data-tooltip="Date and time at which the CONNECTED DEVICE first stored a record in non-volatile memory.">First Use Time</span> is greater than 2 years – the warning should highlight that the maximum storage time has been exceeded.  </p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><span data-tooltip="Date and time at which the CONNECTED DEVICE first stored a record in non-volatile memory.">First Use Time</span>: provided via the <span data-tooltip="A wrapper structure around the latest record produced by the CONNECTED DEVICE, with additional data, including:
+- FIRST USE TIME
+- RECORD NUMBER
+- Battery voltage
+- Microcontroller temperature
+- CHECK VALUE of the EXTENDED DOSE RECORD">Extended Dose Record</span> (see <a href="services.html#extended-dose-record-characteristic">here</a>)</li>
+<li>Production date as part of the <span data-tooltip="Unique device identifier, a globally unique number required by regulation to be assigned to every individual medical device.">UDI</span> (see <a href="services.html#unique-device-identifier-characteristic">here</a>)</li>
+</ul>
+<p>A warning should be issued when the <span data-tooltip="The time in minutes since FIRST USE TIME.">Dose Time</span> value indicates the <span data-tooltip="An error detected during DOSE TIME generation.">Time Error</span> 0x1FFFF8 after approximately 3.99 years in use, as the internal counter has exceeded the boundary and is in undefined state. </p>
+<p><strong>Parameters:</strong></p>
+<ul>
+<li><span data-tooltip="The time in minutes since FIRST USE TIME.">Dose Time</span> value = error code 0x1FFFF8: (see <a href="records.html#time-errors">here</a>)</li>
+</ul>
+<p>A device expiration date is currently not supported by the API.</p>
+<hr />
+<h2 id="complaint-handling">Complaint handling<a class="headerlink" href="#complaint-handling" title="Permanent link">#</a></h2>
+<p>In order to support Sanofi´s complaint (<span data-tooltip="Product Technical Complaint, a report about a quality defect in the medical device.">PTC</span>) handling processes of the AllStar® Connect the App Developer must implement means to provide data for such purpose. </p>
+<h3 id="ptc-investigation">PTC investigation<a class="headerlink" href="#ptc-investigation" title="Permanent link">#</a></h3>
+<p>It is required to have appropriate means to allow for pulling of specific device data for PTC investigations. (For example provision of log data by device serial number query.)
+This includes gathering and transmitting of relevant data such as SN/LOT number, battery voltage, CPU temperature, error logs and/or device use data (wear level indicator).</p>
+<p>Respective information is provided via the <span data-tooltip="A wrapper structure around the latest record produced by the CONNECTED DEVICE, with additional data, including:
+- FIRST USE TIME
+- RECORD NUMBER
+- Battery voltage
+- Microcontroller temperature
+- CHECK VALUE of the EXTENDED DOSE RECORD">Extended Dose Record</span> (see <a href="services.html#extended-dose-record-characteristic">here</a>)</p>
+<p>The process and responsibility details will manifest in agreements.</p>
+<hr />
+<h3 id="ptc-trending-data">PTC trending data<a class="headerlink" href="#ptc-trending-data" title="Permanent link">#</a></h3>
+<p>This includes gathering and transmitting of relevant data such as SN/LOT number, battery voltage, CPU temperature, error logs and/or device use data (wear level indicator), but must comply with data privacy regulations and must not contain patient data. </p>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="services.html" title="Services" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Services
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="tools.html" title="Tools" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Tools
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/vendor.de50e36d.min.js"></script>
+      <script src="assets/javascripts/bundle.ff925e8b.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+
+
+      <script>
+        app = initialize({
+          base: ".",
+          features: [],
+          search: Object.assign({
+            worker: "assets/javascripts/worker/search.27c6a5e6.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      
+        <script src="javascripts/jquery.fancybox.min.js"></script>
+      
+        <script src="javascripts/bootstrap.min.js"></script>
+      
+        <script src="javascripts/navbar_hover.js"></script>
+      
+    
+  </body>
+</html>

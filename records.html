@@ -1,0 +1,639 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="img/sanofi.svg">
+      <meta name="generator" content="mkdocs-1.1, mkdocs-material-5.2.2">
+    
+    
+      
+        <title>Records - DRAFT AllStar® Connect - Interoperability Manual</title>
+      
+    
+    
+      <link rel="stylesheet" href="assets/stylesheets/main.b8fb47b5.min.css">
+      
+        <link rel="stylesheet" href="assets/stylesheets/palette.36d1b78f.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Hammersmith+One:300,400,400i,700%7CHammersmith+One&display=fallback">
+        <style>body,input{font-family:"Hammersmith One",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Hammersmith One",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+      <link rel="stylesheet" href="css/style.css">
+    
+      <link rel="stylesheet" href="css/jquery.fancybox.min.css">
+    
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+    
+      <link rel="stylesheet" href="css/extra.css">
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="indigo">
+  
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#record-format" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <!--
+  Copyright (c) 2016-2020 Martin Donath <martin.donath@squidfunk.com>
+  Permission is hereby granted, free of charge, to any person obtaining a copy
+  of this software and associated documentation files (the "Software"), to
+  deal in the Software without restriction, including without limitation the
+  rights to use, copy, modify, merge, publish, distribute, sublicense, and/or
+  sell copies of the Software, and to permit persons to whom the Software is
+  furnished to do so, subject to the following conditions:
+  The above copyright notice and this permission notice shall be included in
+  all copies or substantial portions of the Software.
+  THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+  IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+  FITNESS FOR A PARTICULAR PURPOSE AND NON-INFRINGEMENT. IN NO EVENT SHALL THE
+  AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+  LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING
+  FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS
+  IN THE SOFTWARE.
+-->
+
+<div class="logo-wrapper">
+  <a href="index.html">
+    <img src='img/logo.png' width="200">
+  </a>
+</div>
+ 
+
+<!-- Application header -->
+
+	
+  <!-- Top-level navigation -->
+
+	
+<nav class="navbar sticky-top navbar-expand-md navbar-light ">
+
+
+
+    <button class="navbar-toggler float-right" type="button" data-toggle="collapse" data-target="#navbarNavDropdown">
+      <span class="navbar-toggler-icon"></span>
+  </button>
+
+    <div class="navbar-collapse collapse" id="navbarNavDropdown">
+      <ul class="nav navbar-nav navbar-center">
+       
+ 
+
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle-split" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            EUROPE
+          </a>
+          <span class="sr-only">Toggle Dropdown</span>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="#">Action</a>
+          </div>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link" href="asia.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            ASIA
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <a class="dropdown-item" href="cambodia.html">Cambodia</a>
+            <a class="dropdown-item" href="#">b</a>
+            <a class="dropdown-item" href="#">c</a>
+          </div>
+        </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="north-america.html" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              NORTH AMERICA
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="canada.html">Canada</a>
+              <a class="dropdown-item" href="#">Puerto Rico</a>
+              <a class="dropdown-item" href="#">US</a>
+            </div>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              AFRICA
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+              <a class="dropdown-item" href="#">Action</a>
+              <a class="dropdown-item" href="#">Another action</a>
+              <a class="dropdown-item" href="#">Something else here</a>
+            </div>
+          </li>
+            <li class="nav-item">
+              <a class="nav-link" href="video.html">VIDEO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="contact.html">CONTACT</a>
+            </li>
+      </ul>
+    </div>
+
+</nav>
+
+
+
+
+    <!-- Link to home 
+    <a
+
+	  href="index.html"
+      title="DRAFT AllStar® Connect - Interoperability Manual"
+      aria-label="DRAFT AllStar® Connect - Interoperability Manual"
+      class="md-header-nav__button md-logo"
+    >
+      
+        <img src="img/sanofi_white.svg" alt="logo" />
+      
+    </a>
+   
+
+    <!-- Header title 
+    <div class="md-header-nav__title" data-md-component="header-title">
+      <div class="md-header-nav__ellipsis md-ellipsis">
+        
+          <span class="md-header-nav__topic">
+            DRAFT AllStar® Connect - Interoperability Manual
+          </span>
+          <span class="md-header-nav__topic">
+            
+              Records
+            
+          </span>
+        
+      </div>
+    </div>
+
+    <!-- Button to open search dialogue -->
+
+
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+        
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h2 id="record-format">Record format<a class="headerlink" href="#record-format" title="Permanent link">#</a></h2>
+<p><span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span>s and <span data-tooltip="A record containing information about a DEVICE ERROR. The same record structure is used as for a DOSE RECORD.">Error Record</span>s are five byte (forty bit), bit-packed records containing dose or device error information. </p>
+<p>The <span data-tooltip="The time in minutes since FIRST USE TIME.">Dose Time</span> is stored as minutes since <span data-tooltip="Date and time at which the CONNECTED DEVICE first stored a record in non-volatile memory.">First Use Time</span> so this value must be added to the <span data-tooltip="Date and time at which the CONNECTED DEVICE first stored a record in non-volatile memory.">First Use Time</span> to get the <span data-tooltip="UTC converted to be an offset in seconds from 1970-01-01T00:00:00Z.">Epoch Time</span> of a dose: <span data-tooltip="UTC converted to be an offset in seconds from 1970-01-01T00:00:00Z.">Epoch Time</span> (dose) = <span data-tooltip="Date and time at which the CONNECTED DEVICE first stored a record in non-volatile memory.">First Use Time</span> + (<span data-tooltip="The time in minutes since FIRST USE TIME.">Dose Time</span> x 60). </p>
+<p>The <span data-tooltip="The output of an 8 bit cyclic redundancy check using a polynomial optimised for the DOSE RECORD size.">Check Value</span> is the output of a CRC calculation on a combination of the <span data-tooltip="A unique identifier for a DOSE RECORD or ERROR RECORD.">Record Number</span> and the first 4 bytes of the record. The two byte <span data-tooltip="A unique identifier for a DOSE RECORD or ERROR RECORD.">Record Number</span> is prepended to the record, creating a 6 byte input to the <span data-tooltip="The output of an 8 bit cyclic redundancy check using a polynomial optimised for the DOSE RECORD size.">Check Value</span> calculation. </p>
+<table>
+<thead>
+<tr>
+<th>Bit(s)</th>
+<th>Field</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0 to 20</td>
+<td>DOSE TIME</td>
+<td>The time of the dose, in minutes since FIRST USE TIME or may be an error code, see below.</td>
+</tr>
+<tr>
+<td>21 to 27</td>
+<td>REPORTED DOSE</td>
+<td>The dose reported by the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>, may be an error code, see below.</td>
+</tr>
+<tr>
+<td>28</td>
+<td>BUTTON TIMEOUT FLAG</td>
+<td>1 if the DOSE BUTTON was held for at least BUTTON_TIMEOUT, 0 otherwise.</td>
+</tr>
+<tr>
+<td>29</td>
+<td>VERY FAST DOSE FLAG</td>
+<td>1 if a very fast dose was detected, 0 otherwise.</td>
+</tr>
+<tr>
+<td>30</td>
+<td>LOW VOLTAGE FLAG</td>
+<td>1 for battery voltage below LOW_VOLTAGE, 0 otherwise.</td>
+</tr>
+<tr>
+<td>31</td>
+<td>FAST DOSE FLAG</td>
+<td>1 if a FAST DOSE was detected, 0 otherwise.</td>
+</tr>
+<tr>
+<td>32 to 39</td>
+<td>CHECK VALUE</td>
+<td>The CHECK VALUE for the record (bytes 0 to 1 of the DOSE NUMBER followed by bytes 0 to 3 of the record).</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>See the diagram below for bit and byte numbering definitions:
+<img alt="" src="img/DoseRecordFormat.jpg" /></p>
+</div>
+<hr />
+<h2 id="check-value-calculations">Check value calculations<a class="headerlink" href="#check-value-calculations" title="Permanent link">#</a></h2>
+<p>The <span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span>, <span data-tooltip="A record containing information about a DEVICE ERROR. The same record structure is used as for a DOSE RECORD.">Error Record</span> and <span data-tooltip="A wrapper structure around the latest record produced by the CONNECTED DEVICE, with additional data, including:
+- FIRST USE TIME
+- RECORD NUMBER
+- Battery voltage
+- Microcontroller temperature
+- CHECK VALUE of the EXTENDED DOSE RECORD">Extended Dose Record</span> <span data-tooltip="The output of an 8 bit cyclic redundancy check using a polynomial optimised for the DOSE RECORD size.">Check Value</span>s are the output of a CRC calculation on the specified preceding bytes with the following “Rocksoft” CRC parameters:  </p>
+<ul>
+<li>Width: 8</li>
+<li>Poly: 0x97</li>
+<li>Init: 0xFF</li>
+<li>RefIn: False</li>
+<li>RefOut: False</li>
+<li>XorOut: 0x00</li>
+<li>Check: 0x64 (Output of a ‘verify’ test on the 9 byte ASCII string “123456789”, excluding the quotes)</li>
+</ul>
+<p>The CRC parameters are chosen based upon work by Koopman et al. <a href="references.html#cyclic-redundancy-code-crc-koopman-et-al">(see here)</a>. The parameters permit error detection to be performed by the CRC where up to 4 bits are changed in a maximum input length of 119 bits. This covers the use of the algorithm in calculating <span data-tooltip="The output of an 8 bit cyclic redundancy check using a polynomial optimised for the DOSE RECORD size.">Check Value</span>s for <span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span>s, <span data-tooltip="A record containing information about a DEVICE ERROR. The same record structure is used as for a DOSE RECORD.">Error Record</span>s and <span data-tooltip="A wrapper structure around the latest record produced by the CONNECTED DEVICE, with additional data, including:
+- FIRST USE TIME
+- RECORD NUMBER
+- Battery voltage
+- Microcontroller temperature
+- CHECK VALUE of the EXTENDED DOSE RECORD">Extended Dose Record</span>s. </p>
+<hr />
+<h2 id="identifying-errors">Identifying errors<a class="headerlink" href="#identifying-errors" title="Permanent link">#</a></h2>
+<p>The following flags indicate that the <span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span> may contain unreliable
+dose data:</p>
+<ul>
+<li><span data-tooltip="A field in a record indicating that the DOSE BUTTON was pressed for greater than or equal to BUTTON TIMEOUT.">Button Timeout Flag</span>: further units may have been dispensed after dose measurement stopped.</li>
+<li><span data-tooltip="A field a record indicating that a FAST DOSE was detected.">Fast Dose Flag</span>: the dose may have been an air shot. <a href="parameters.html#dose-and-record-limits">(see here)</a></li>
+<li><span data-tooltip="A field in a record indicating that a VERY FAST DOSE was detected.">Very Fast Dose Flag</span>: units may have been missed due to the dispense speed. <a href="parameters.html#dose-and-record-limits">(see here)</a></li>
+<li><span data-tooltip="A field in the DOSE RECORD indicating that the battery voltage has been measured to be below LOW_VOLTAGE.">Low Voltage Flag</span>: the battery voltage following dose measurement was less than or equal to <span data-tooltip="2.5 V	+/- 100 mV">LOW_VOLTAGE</span>.</li>
+</ul>
+<p>The following should be checked to identify other potential errors:</p>
+<ul>
+<li>The <span data-tooltip="A data field of a record, which is used to represent one of the MEASURED DOSE, a DOSE ERROR code or a DEVICE ERROR code.">Reported Dose</span> of the current record – it could indicate a <span data-tooltip="Value that is recorded in the REPORTED DOSE of a DOSE RECORD as the result of a dose measurement error.">Dose Error</span> or a <span data-tooltip="Value that is recorded in the REPORTED DOSE of an ERROR RECORD as the result of a device functionality error.">Device Error</span>.</li>
+<li>The <span data-tooltip="The time in minutes since FIRST USE TIME.">Dose Time</span> of the current record – it could indicate a <span data-tooltip="An error detected during DOSE TIME generation.">Time Error</span>.</li>
+<li>The <span data-tooltip="A data field of a record, which is used to represent one of the MEASURED DOSE, a DOSE ERROR code or a DEVICE ERROR code.">Reported Dose</span> of the previous record – it could indicate a <span data-tooltip="Value that is recorded in the REPORTED DOSE of an ERROR RECORD as the result of a device functionality error.">Device Error</span>.</li>
+<li>The <span data-tooltip="The time in minutes since FIRST USE TIME.">Dose Time</span> of the previous record – it could indicate that the <span data-tooltip="The time in minutes since FIRST USE TIME.">Dose Time</span>s are out of order.</li>
+</ul>
+<h3 id="time-errors">Time errors<a class="headerlink" href="#time-errors" title="Permanent link">#</a></h3>
+<p>The following <span data-tooltip="An error detected during DOSE TIME generation.">Time Error</span>s can be reported in the <span data-tooltip="The time in minutes since FIRST USE TIME.">Dose Time</span> field of a record.</p>
+<table>
+<thead>
+<tr>
+<th>DOSE TIME value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>0x1FFFF0</td>
+<td>Communications failure with the RTC.</td>
+</tr>
+<tr>
+<td>0x1FFFF1</td>
+<td>RTC has reset.</td>
+</tr>
+<tr>
+<td>0x1FFFF2</td>
+<td>RTC oscillator has failed.</td>
+</tr>
+<tr>
+<td>0x1FFFF3</td>
+<td>Incorrect configuration of the RTC.</td>
+</tr>
+<tr>
+<td>0x1FFFF4</td>
+<td>The RTC holds an invalid date or time e.g. (49/61/2019 70:98:77).</td>
+</tr>
+<tr>
+<td>0x1FFFF5</td>
+<td>FIRST USE TIME is before production date set in the UDI or after 03:14:07 on 19<sup>th</sup> January 2038. <br> 03:14:07 on 19<sup>th</sup> January 2038 represents the latest EPOCH TIME that is supported by the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>.</td>
+</tr>
+<tr>
+<td>0X1FFFF6</td>
+<td>Device time is before the production date set in the UDI or after 03:14:07 on 19<sup>th</sup> January 2038. <br> 03:14:07 on 19<sup>th</sup> January 2038 represents the latest EPOCH TIME that is supported by the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span>.</td>
+</tr>
+<tr>
+<td>0X1FFFF7</td>
+<td>Device time is before FIRST USE TIME.</td>
+</tr>
+<tr>
+<td>0x1FFFF8</td>
+<td>The calculated DOSE TIME is larger than the maximum supported value 0x1FFFEF (may indicate the device has been in use for more than 3.99 years)</td>
+</tr>
+<tr>
+<td>0x1FFFFF</td>
+<td>Internal consistency check failed when calculating DOSE TIME.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Where more than one TIME ERROR occurs the one with the lowest value is reported in the record. </p>
+</div>
+<h3 id="dose-errors">Dose errors<a class="headerlink" href="#dose-errors" title="Permanent link">#</a></h3>
+<p>The following <span data-tooltip="Value that is recorded in the REPORTED DOSE of a DOSE RECORD as the result of a dose measurement error.">Dose Error</span>s can be reported in the <span data-tooltip="A data field of a record, which is used to represent one of the MEASURED DOSE, a DOSE ERROR code or a DEVICE ERROR code.">Reported Dose</span> field of a record.</p>
+<table>
+<thead>
+<tr>
+<th>REPORTED DOSE value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>81</td>
+<td>The MEASURED DOSE was 81 Units. <br>Technically feasible in some mechanical tolerance situations prior to clutch re-engagement, e.g. if a BUTTON TIMEOUT occurs and dose measurement stops before the mechanism reverses as the clutch re-engages.</td>
+</tr>
+<tr>
+<td>82</td>
+<td>The MEASURED DOSE was larger than 81 Units. <br>This would indicate a mechanical device failure and should not occur, even in a mechanically abused device.</td>
+</tr>
+<tr>
+<td>83</td>
+<td>The MEASURED DOSE was -1. <br>Technically feasible in some mechanical tolerance situations if the mechanical mechanism is mildly abused, most probably with a dialled dose of zero.</td>
+</tr>
+<tr>
+<td>84</td>
+<td>The MEASURED DOSE was &lt;-2 without two consecutive Gray code transitions decrementing the MEASURED DOSE. <br>This would indicate a software failure.</td>
+</tr>
+<tr>
+<td>85</td>
+<td>Two consecutive Gray code transitions decremented the MEASURED DOSE. <br>This would indicate a mechanical device failure due to abuse, most probably with a non-zero dialled dose.</td>
+</tr>
+<tr>
+<td>86</td>
+<td>The MEASURED DOSE was -2. <br>This would indicate a mechanical device failure due to abuse, most probably with a dialled dose of zero.</td>
+</tr>
+<tr>
+<td>87</td>
+<td>Sensor controller initialisation error: the sensor controller failed to start so no dose measurement could take place.</td>
+</tr>
+<tr>
+<td>88</td>
+<td>Sensor controller run time error: the sensor controller started but failed to terminate normally and return dose data.</td>
+</tr>
+<tr>
+<td>95</td>
+<td>Internal consistency check failed when determining reported dose value.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Where more than one DOSE ERROR occurs the one with the highest value is reported.</p>
+</div>
+<h3 id="device-errors">Device errors<a class="headerlink" href="#device-errors" title="Permanent link">#</a></h3>
+<p>When a <span data-tooltip="Value that is recorded in the REPORTED DOSE of an ERROR RECORD as the result of a device functionality error.">Device Error</span> is detected the <span data-tooltip="The AllStar Connect drug delivery device.">Connected Device</span> generates an <span data-tooltip="A record containing information about a DEVICE ERROR. The same record structure is used as for a DOSE RECORD.">Error Record</span> which has the same format as a <span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span> but the <span data-tooltip="A data field of a record, which is used to represent one of the MEASURED DOSE, a DOSE ERROR code or a DEVICE ERROR code.">Reported Dose</span> field contains information relating to the detected <span data-tooltip="Value that is recorded in the REPORTED DOSE of an ERROR RECORD as the result of a device functionality error.">Device Error</span>. </p>
+<p><span data-tooltip="A record containing information about a DEVICE ERROR. The same record structure is used as for a DOSE RECORD.">Error Record</span>s may have an associated <span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span> in which case the <span data-tooltip="A record containing information about a DEVICE ERROR. The same record structure is used as for a DOSE RECORD.">Error Record</span> will be stored immediately preceding the associated <span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span> and will share the same <span data-tooltip="The time in minutes since FIRST USE TIME.">Dose Time</span>. </p>
+<p>An <span data-tooltip="A record containing information about a DEVICE ERROR. The same record structure is used as for a DOSE RECORD.">Error Record</span> may be distinguished from a <span data-tooltip="A record of a dose event in the microcontroller non-volatile memory of the CONNECTED DEVICE containing the following:
+- DOSE TIME, 
+- REPORTED DOSE, 
+- FAST DOSE FLAG, 
+- VERY FAST DOSE FLAG, 
+- BUTTON TIMEOUT FLAG, 
+- LOW VOLTAGE FLAG, 
+- CHECK VALUE of the DOSE RECORD">Dose Record</span> by the value of the <span data-tooltip="A data field of a record, which is used to represent one of the MEASURED DOSE, a DOSE ERROR code or a DEVICE ERROR code.">Reported Dose</span> field. </p>
+<table>
+<thead>
+<tr>
+<th>REPORTED DOSE value</th>
+<th>Description</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>96</td>
+<td>The battery voltage was measured to be below VERY_LOW_VOLTAGE. <br>This may indicate the coin cell is close to end of life but may also be due to a low temperature (from say storing in a refrigerator) depressing the voltage, which may recover when the temperature of the device increases.</td>
+</tr>
+<tr>
+<td>97</td>
+<td>Reserved. <!---  Encoder sensor failure detected. <br> An encoder sensor failure indicates that the analogue response from sampling the encoder sensors appears to be out of specification. This is used to detect and indicate a hardware failure within the ADC, encoder sensor components or circuitry. --></td>
+</tr>
+<tr>
+<td>98</td>
+<td>Microcontroller reset. Reason: unknown/other. <br> An 'unknown/other' microcontroller reset is reported when the reason for the reset cannot be determined by the microcontroller.</td>
+</tr>
+<tr>
+<td>99</td>
+<td>Microcontroller reset. Reason: the microcontroller has been reset via the TCK JTAG input pin, which may indicate a hardware fault or potential tampering.</td>
+</tr>
+<tr>
+<td>100</td>
+<td>Microcontroller reset. Reason: the microcontroller has been reset via the hardware pin reset input, which may indicate a hardware fault or potential tampering.</td>
+</tr>
+<tr>
+<td>101</td>
+<td>Microcontroller reset. Reason: the microcontroller watchdog has triggered a microcontroller reset.</td>
+</tr>
+<tr>
+<td>102</td>
+<td>Microcontroller reset. Reason: the microcontroller has entered a CPU lockup state due to a software failure.</td>
+</tr>
+<tr>
+<td>103</td>
+<td>Microcontroller reset. Reason: the crystal oscillator has ceased running.</td>
+</tr>
+<tr>
+<td>104</td>
+<td>Microcontroller reset. Reason: the battery voltage has momentarily dropped below BROWN_OUT_VOLTAGE.</td>
+</tr>
+<tr>
+<td>105</td>
+<td>Microcontroller reset. Reason: the power to the microcontroller has been cycled.</td>
+</tr>
+<tr>
+<td>127</td>
+<td>Internal consistency check failed when determining the DEVICE ERROR.</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p>Where more than one DEVICE ERROR occurs the one with the highest value is reported.</p>
+</div>
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="parameters.html" title="Parameters" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Parameters
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="references.html" title="References" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                References
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="assets/javascripts/vendor.de50e36d.min.js"></script>
+      <script src="assets/javascripts/bundle.ff925e8b.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+
+
+      <script>
+        app = initialize({
+          base: ".",
+          features: [],
+          search: Object.assign({
+            worker: "assets/javascripts/worker/search.27c6a5e6.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+        <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      
+        <script src="javascripts/jquery.fancybox.min.js"></script>
+      
+        <script src="javascripts/bootstrap.min.js"></script>
+      
+        <script src="javascripts/navbar_hover.js"></script>
+      
+    
+  </body>
+</html>
