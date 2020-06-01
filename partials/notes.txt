@@ -1,3 +1,0 @@
-header and nav only to change home link on Sanofi symbol to index.html
-
-footer to replace standard text with Rene's contact
