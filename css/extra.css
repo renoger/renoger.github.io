@@ -143,14 +143,23 @@ body {
 		margin-left: 0px;
 	} */
 
+	.md-content__inner{
+		padding-top: unset;
+	} 
+	/* remove before block (height unset)*/
+	.md-content__inner::before {
+		display: block;
+		height: unset;
+		content: "";
+	}
 
 	/* index page 4 photos dimensions */
 	.row {
 		display: flex;
 		flex-wrap: wrap;
-		padding: 0 4px;
-		/* reduce size of index grid, but mobile view is also too small then */
-		max-width: 80%;
+	
+		/* reduce size of index grid, but mobile view is also too small then 
+		max-width: 80%;*/
 		margin: auto;
 	  }
 	  
