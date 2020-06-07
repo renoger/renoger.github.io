@@ -144,7 +144,7 @@ body {
 	} */
 
 
-
+	/* index page 4 photos dimensions */
 	.row {
 		display: flex;
 		flex-wrap: wrap;
@@ -273,16 +273,8 @@ body {
 
 
 	/* fix navigation on responsive mobile design to have endless scroll of background screen */
-	
-	@media (max-width: 576px) {
-		.navbar-collapse {
-		  max-height: calc(100vh - 125px);
-		  overflow-y: auto;
-		}
-	  }
-	
 
-	  @media (max-width: 768px) {
+	  @media (max-width: 767px) {
 		.navbar-collapse {
 		  max-height: calc(100vh - 125px);
 		  overflow-y: auto;
@@ -290,21 +282,13 @@ body {
 	  }
 	
 	 
-	  @media (max-width: 992px) {
-		.navbar-collapse {
-		  max-height: calc(100vh - 125px);
-		  overflow-y: auto;
-		}
-	  }
+
 	
+
+
 	
-	  @media (max-width: 1200px) {
-		.navbar-collapse {
-		  max-height: calc(100vh - 125px);
-		  overflow-y: auto;
-		}
-	  }
-	
+
+
 
 	/* smaller header in policies */
 	  .md-typeset h1 {
@@ -316,3 +300,11 @@ body {
 		color: hsl(0, 0%, 0%);
 		font-size: 1rem;
 	  }
+
+	  /* deactivate blue boxes on mobile view after link activated */
+	  .html {
+
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+	  
+	  }
+	  
