@@ -1,1 +1,0 @@
-main to support local search plugin
