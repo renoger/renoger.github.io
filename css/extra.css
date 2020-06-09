@@ -1,0 +1,380 @@
+/*adjust general font size*/
+.md-typeset  {
+font-size: 0.7rem;
+}
+
+/* allows to center images via attr_list */
+.center {
+    display: block;
+    margin: 0 auto;
+}
+
+/* remove border of dropdown toggle when active after click */
+button:focus {
+    outline: unset;
+}
+
+.navbar {
+	font-family: "Hammersmith One",sans-serif,"google";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+	text-transform: uppercase;
+	background-color: white;
+	
+	letter-spacing: 1px;
+
+    padding-top: 5px;
+	padding-bottom: 5px;
+	padding-left: 3%;
+	padding-right: 3%;
+  }
+  
+.navbar-light .navbar-nav .nav-link {
+    color: rgb(0, 0, 0) !important;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: rgb(139, 139, 139)!important;
+}
+
+.dropdown-item {
+    display: block;
+    width: 100%;
+    padding: .25rem 1.5rem;
+    clear: both;
+    font-weight: 400;
+    color: #000000;
+    text-align: center !important;
+    white-space: nowrap;
+    background-color: white !important;
+	border: 0;
+	font-family: "Hammersmith One",sans-serif,"google";
+    font-size: 14px;
+    font-weight: normal;
+    font-style: normal;
+	text-transform: uppercase;
+}
+
+
+
+
+
+@media (min-width: 979px) {
+ul.nav a:hover { 
+	color: rgb(139, 139, 139) !important;
+	background-color:white !important;
+ }
+}
+
+ .nav-link{
+	background-color:white !important;
+ }
+
+.dropdown-menu {
+	position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 1000;
+    display: none;
+    float: left;
+    min-width: 8rem !important;
+    padding: .5rem 0;
+    margin: .125rem 0 0;
+    font-size: 1rem;
+    color: #000000;
+    text-align: left;
+    list-style: none;
+    background-color: rgb(255, 255, 255)!important;
+    background-clip: padding-box;
+    border: 0px solid rgba(0,0,0,.15) !important;
+	border-radius: 0rem !important;
+	margin-top: 0px !important;
+}
+
+
+
+
+
+body {
+	font-family: "Hammersmith One",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif;
+}
+
+
+
+
+
+
+.dropdown-menu {
+  margin-top: 0;
+}
+
+.navbar-nav.navbar-center {
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+
+	}
+
+	.navbar-nav > li{
+		padding-left:10px;
+		padding-right:10px;
+	  }
+
+	  	/* logo in center*/ 
+	  .logo-wrapper{
+		text-align: center !important;
+	}
+
+
+	/*sizing of main window*/
+	.md-content{
+		margin: 0 auto !important;
+		max-width: 95%;
+	}
+
+	.md-main__inner{
+		margin-top: 0px;
+	}
+
+/* even wider
+	.md-content__inner{
+		margin-right: 0px;
+		margin-left: 0px;
+	} */
+
+	.md-content__inner{
+		padding-top: unset;
+		margin: unset;
+	} 
+	/* remove before block (height unset)*/
+	.md-content__inner::before {
+		display: block;
+		height: unset;
+		content: "";
+	}
+
+	/* index page 4 photos dimensions */
+	.row {
+		display: flex;
+		flex-wrap: wrap;
+	
+		/* reduce size of index grid, but mobile view is also too small then 
+		max-width: 80%;*/
+		margin: auto;
+	  }
+	  
+	  /* Create four equal columns that sits next to each other */
+	  .column {
+		flex: 25%;
+		max-width:50%;
+		margin-bottom: 3px;
+	  }
+	  
+	  .column img {
+		vertical-align: middle;
+		width: 100%;
+	  }
+	  
+	  /* Responsive layout - makes a two column-layout instead of four columns */
+	  @media screen and (max-width: 800px) {
+		.column {
+		  flex: 50%;
+		  max-width: 50%;
+		}
+	  }
+	  
+	  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+	  @media screen and (max-width: 600px) {
+		.column {
+		  flex: 100%;
+		  max-width: 100%;
+		}
+	  }
+
+
+
+	/* rk: limit carousel size to panorama width and center*/
+	  .carousel-inner {
+		max-width: 1070px;
+		margin: auto;
+	}
+
+	.carousel-caption {
+		padding-top: 0px;
+		padding-bottom: 0px;
+		bottom: 5px;
+		left: unset;
+		right: unset;
+		margin-left: 5px;
+	}
+	
+	.carousel-caption p{
+		background-color: rgba(0, 0, 0, 0.5);
+		padding-top: 2px;
+	/*	padding-bottom: 2px; */
+		padding-left: 8px;
+		padding-right: 8px;
+		margin-top: 0px;
+		margin-bottom: 0px;
+	}
+
+
+	/* positioning of indicators */
+	.carousel-indicators {
+		left: unset;
+		bottom: 0;
+
+		margin-right: 10px!important;
+		margin-bottom: 0!important;
+		margin-top: 0px!important;
+		margin-left: 0px!important;
+	}
+
+	/*length of indicators*/
+	.carousel-indicators li {
+		width: 10px;
+	}
+
+	/*distance between indicators*/
+	.md-typeset ol li {
+		margin-left: 2px;
+	}
+
+	/* move arrows outside */
+	.carousel-control-next, .carousel-control-prev {
+		 width: 10%; 
+	} 
+
+	.md-footer{
+		background-color: white;
+			--md-footer-fg-color--light: hsla(0, 0%, 75%, 0.7);
+			--md-footer-fg-color: hsla(0, 0%, 75%, 0.7);
+			--md-footer-bg-color--dark: white;
+			
+	}
+
+	.md-footer-copyright {
+		margin: auto;
+		text-align: center !important;
+		font-size: .7em;
+	}
+	
+
+
+	/* iframe (embedded youtube) responsive */
+	.video-container {
+		position:relative;
+		padding-bottom:56.25%;
+	
+		height:0;
+		overflow:hidden;
+	}
+	
+	.video-container iframe, .video-container object, .video-container embed {
+		position:absolute;
+		top:0;
+		left:0;
+		width:100%;
+		height:100%;
+	}
+
+
+
+	/* fix navigation on responsive mobile design to have endless scroll of background screen */
+
+	  @media (max-width: 767px) {
+		.navbar-collapse {
+		  max-height: calc(100vh - 125px);
+		  overflow-y: auto;
+		}
+	  }
+	
+
+
+
+	/* smaller header in policies */
+	  .md-typeset h1 {
+		color: hsl(0, 0%, 0%);
+		font-size: 1rem;
+	  }
+
+	  .md-typeset h2 {
+		color: hsl(0, 0%, 0%);
+		font-size: 1rem;
+	  }
+
+	  /* deactivate blue boxes on mobile view after link activated */
+	  .html {
+
+		-webkit-tap-highlight-color: rgba(0,0,0,0);
+	  
+	  }
+	  
+
+	  /* titles for index images */
+	  .location-listing {
+		position: relative;
+	  
+	  }
+	   
+	  .location-title {
+	    position: absolute;
+		bottom: 0;
+		left: 0;
+		padding-left: 10px;
+		padding-right: 10px;
+		opacity: 1;
+		background-color: rgba(0, 0, 0, 0.5);
+
+		 
+		/* typographic styles */
+		color: white;
+		font-size: 0.7rem;
+		font-weight: bold;
+		text-decoration: none;
+		 
+		/* position the text centrally*/
+		display: flex;
+		align-items: center;
+		justify-content: center;
+	  }
+
+	
+    /* b/w - color hover index page only for desktop (if touchscreen->colored)*/
+  @media (hover: hover) { 
+
+		.index-image { 
+		filter: grayscale(100%);
+		transition: .5s ease-in-out;
+		}
+
+		.location-title {
+			opacity: 0;
+			transition: .5s ease-in-out;
+		}
+		
+		.index-image:hover {  
+			filter: grayscale(0%);
+			transition: 1s ease-in-out;
+		}
+
+		.location-title:hover {  
+			opacity: 1;
+			transition: 1s ease-in-out;
+			transition-delay:.5s;
+		}	
+
+		.index-image:hover  ~.location-title {  
+			opacity: 1;
+			transition: 1s ease-in-out;
+			transition-delay:.5s;
+		}	 
+
+		.location-title:hover ~.index-image {  
+			filter: grayscale(0%);
+			transition: 1s ease-in-out;
+		}  
+ 	}
+
