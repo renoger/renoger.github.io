@@ -1,22 +1,15 @@
+/* Dactivate left mouse click */
+function click (e) {
+  if (!e)
+    e = window.event;
+  if ((e.type && e.type == "contextmenu") || (e.button && e.button == 2) )  {
+    if (window.opera)
+      window.alert("Sorry: function disabled.");
+    return false;
+  }
 
-
-$(document).ready(function() {
-
-	var $toggleButton = $('.toggle-button'),
-    	$menuWrap = $('.menu-wrap'),
-    	$sidebarArrow = $('.sidebar-menu-arrow');
-
-	// Hamburger button
-
-	$toggleButton.on('click', function() {
-		$(this).toggleClass('button-open');
-		$menuWrap.toggleClass('menu-show');
-	});
-
-	// Sidebar navigation arrows
-
-	$sidebarArrow.click(function() {
-		$(this).next().slideToggle(300);
-	});
-
-});
+}
+if (document.layers)
+  document.captureEvents(Event.MOUSEDOWN);
+document.onmousedown = click;
+document.oncontextmenu = click;
