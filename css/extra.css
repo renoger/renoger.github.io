@@ -378,3 +378,6 @@ body {
 		}  
  	}
 
+	a img {
+			border: none;
+	  }
