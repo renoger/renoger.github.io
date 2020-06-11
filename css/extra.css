@@ -381,3 +381,7 @@ body {
 	a img {
 			border: none;
 	  }
+
+	  a {
+		border: none;
+  }
