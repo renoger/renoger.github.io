@@ -378,6 +378,6 @@ body {
 		}  
  	}
 
-	  img {
-		border: none
-		}
+	a img {
+			border: none;
+	  }
