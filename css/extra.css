@@ -378,11 +378,8 @@ body {
 		}  
  	}
 
-	a img {
-			border: none;
-	  }
-
-	  a {
+/* remove active link frame */
+	a {
 		border: none;
-		  outline: none !important;
-  }
+		outline: none !important;
+	}
