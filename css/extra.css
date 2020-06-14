@@ -197,7 +197,7 @@ body {
 
 	/* rk: limit carousel size to panorama width and center*/
 	  .carousel-inner {
-		max-width: 1070px;
+		
 		margin: auto;
 	}
 
