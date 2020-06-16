@@ -32,6 +32,10 @@
     opacity: 1;
     transition: 500ms;
 }
-.grid img:hover {
-    opacity: 0.8;
+
+/* only transparent on hover when possible (no touchscreen device) */
+@media (hover: hover) { 
+	.grid img:hover {
+		opacity: 0.8;
+	}
 }
