@@ -74,3 +74,19 @@ if (document.layers)
   document.captureEvents(Event.MOUSEDOWN);
 document.onmousedown = click;
 document.oncontextmenu = click;*/
+
+
+
+
+/* Analytics Opt out script */
+var gaProperty = 'UA-81943625-2';
+var disableStr = 'ga-disable-' + gaProperty;
+if (document.cookie.indexOf(disableStr + '=true') > -1) {
+  window[disableStr] = true;
+}
+
+function gaOptout() {
+  document.cookie = disableStr + '=true; expires=Thu, 31 Dec 2099 23:59:59 UTC; path=/';
+  window[disableStr] = true;
+}
+
